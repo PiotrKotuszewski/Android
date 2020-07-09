@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:context=".AddImageActivity">
+
+    <ImageView
+        android:id="@+id/imageCapture"
+        android:layout_width="match_parent"
+        android:layout_height="486dp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="111dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="@string/dodaj_notatke_do_zdjecia"
+        android:inputType="textMultiLine"
+        android:maxLength="500" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save photo"
+        android:layout_marginTop="10dp"
+        android:textColor="#fff"
+        android:background="@color/colorPrimary"
+        android:textSize="18dp"
+        android:id="@+id/btn_saveImage"
+        />
+
+</LinearLayout>
